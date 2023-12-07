@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    width: 100%;
+}
+
+
+.navbar-brand{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Home {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1B980;
+    text-align: center;
+}
+
+.Profile {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1B980;
+    text-align: center;
+}
+
+.top-footer {
+    background-color: #222;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.top-footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.Education {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1B980;
+    text-align: center;
+}
